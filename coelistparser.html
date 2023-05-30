@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSV to Unordered List</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+</head>
+<body>
+  <input type="file" id="csvFile" accept=".csv">
+
+  <h2>Preview</h2>
+  <div id="previewBox" style="background:rgb(226, 226, 226);padding:5px; overflow:auto;">
+    <ul id="list"></ul>
+  </div>
+
+  <h2>Code</h2>
+  <div id="codeBox" style="background:rgb(226, 226, 226);padding:5px; overflow:auto;">
+  </div>
+
+
+  <script src="listparser.js"></script>
+</body>
+</html>
